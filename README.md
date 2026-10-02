@@ -1,5 +1,12 @@
 # Air Quality Forecasting - Technical Assessment Submission
 
+## 1. Candidate Details
+* Candidate Name: Yash Agarwal
+* Degree and Year: B.Tech Computer Science and Engineering (SWE)(2nd Year)
+* Institution: SRM Institute of Science and Technology, Kattankulathur, Chennai.
+* Email: agarwaly609@gmail.com , ya5217@srmist.edu.in
+* Repository Name: Air-Quality-Forecaster
+
 ## 2. Tasks Completed
 * **Task 1: Air Quality Forecasting** (End-to-End Predictive Pipeline)
   * **Part A: Data Understanding & Preprocessing** (Sentinel value decoding, analyzer dropout audit, continuous hourly time grid reindexing, bounded time-based linear interpolation)
@@ -106,24 +113,4 @@ Mapping predictions into standard categories (Good <= 2.0, Moderate 2.0 - 4.5, U
 3. Challenge: Handling European CSV formatting with semicolon delimiters and decimal commas.
    Solution: Built a data loader supporting both semicolon/comma formats and Excel files, properly converting numeric fields and sentinel values.
 
-## 9. Setup and Reproduction
 
-### Running Locally
-```bash
-# Clone the repository
-git clone https://github.com/Yash5217/AIML-Recruitment-2026-YashAgarwal.git
-cd AIML-Recruitment-2026-YashAgarwal
-
-# Create and activate virtual environment
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the training script
-python3 Task-1-Air-Quality-Forecasting/train_task1.py
-```
-
-### Running in Google Colab / Jupyter
-Open `Task-1-Air-Quality-Forecasting/Air_Quality_Forecasting_Project.ipynb` in Google Colab or Jupyter Notebook and run all cells to reproduce the analysis and plots.
